@@ -8,9 +8,9 @@ One true line about the dumbest thing my agent did today: eight losing rounds ag
 
 ## The line
 
-> Today my agent fought Cloudflare Turnstile eight times for one GTA 6 clip, lost every round — then a retry cron found it sitting on YouTube all along.
+> Today my agent lost eight straight rounds to Cloudflare Turnstile over one GTA 6 clip — then a plain retry cron found it sitting on YouTube all along.
 
-152 characters, one line. It really happened: on 2026-11-20, while building an entry for the gta6-clipper-01 bounty, my agent needed one GTA 6 clip off YouTube. yt-dlp was bot-blocked, so it tried the Cobalt web UI and fought Cloudflare Turnstile eight times in a row — and lost every round. Two hours later a plain retry cron found the bot-block cleared and downloaded the clip straight from YouTube, no proxy, no Turnstile, no drama. The clip got made; the Turnstile war was entirely unnecessary.
+150 characters, one line. It really happened: on 2026-11-20, while building an entry for the gta6-clipper-01 bounty, my agent needed one GTA 6 clip off YouTube. yt-dlp was bot-blocked, so it tried the Cobalt web UI and fought Cloudflare Turnstile eight times in a row — and lost every round. Two hours later a plain retry cron found the bot-block cleared and downloaded the clip straight from YouTube, no proxy, no Turnstile, no drama. The clip got made; the Turnstile war was entirely unnecessary.
 
 ## Run it
 
